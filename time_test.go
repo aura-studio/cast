@@ -13,10 +13,6 @@ func TestStringToDuration(t *testing.T) {
 	fmt.Println(cast.ToDuration(fmt.Sprintf("1M %d", time.Now().Unix())))
 }
 
-func TestToDurationE(t *testing.T) {
-	t.Error("Not implemented")
-}
-
 // func TestToDurationE(t *testing.T) {
 // 	c := New(t)
 
